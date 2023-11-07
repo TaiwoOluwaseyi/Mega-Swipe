@@ -12,6 +12,13 @@
     --h4-size: 32px;
     --h5-size: 28px;
     --h5-size: 22px;
+    --purple1: #6962f7;
+    --purple2: #7000ff;
+    --pry-accent: #0a2540;
+}
+
+body {
+    font-family: var(--body-fonts);
 }
 
 
@@ -69,7 +76,17 @@ h6 {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: var(--purple1);
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
 
+
+a:hover {
+color: var(--pry-accent);
+}
 
 
 
