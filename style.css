@@ -16,10 +16,14 @@
     --subtitle-height: 26px;
     --p-size:18px;
     --p-height: 26px;
+    --secondary-text-size: 14px;
+    --secondary-text-height: 18px;
+    --button-size: 16px;
     --purple1: #6962f7;
     --purple2: #7000ff;
     --blue-1: #00d4ff;
     --pry-accent: #0a2540;
+    --btn-hover-color: #6d7a88;
     --bg-white: #fff;
     --bg-light: #f7f9fc;
     /* Spacing */
@@ -122,6 +126,26 @@ p {
 .subtitle2 {
     color: var(--blue-1);
 }
+
+.secondary-text {
+    font-size: var(--secondary-text-size);
+    line-height: var(--secondary-text-height);
+    color:var(--text-grey);
+    letter-spacing: 0.25px;
+}
+
+.primary-button {
+    font-family: var(--body-fonts);
+    font-size: var(--button-size);
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--pry-accent);
+    color: var(--text-light);
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
 
 
 
